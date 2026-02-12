@@ -120,6 +120,21 @@ body {
   color: #bae6fd;
 }
 
+.relay-link-note {
+  margin: 0.45rem 0 0;
+  color: var(--text-muted);
+  font-size: 0.88rem;
+  word-break: break-word;
+}
+
+.relay-link-note a {
+  color: #93c5fd;
+}
+
+.relay-link-note a:hover {
+  color: #bfdbfe;
+}
+
 .about-shell {
   min-height: 100vh;
   display: flex;

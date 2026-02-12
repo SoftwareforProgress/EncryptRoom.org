@@ -8,17 +8,21 @@ export default function AboutPage() {
                 <h1 id="about-title">What EncryptRoom Does</h1>
                 <p className="about-intro">
                     EncryptRoom provides downloadable terminal clients for
-                    private live chat rooms on the managed EncryptRoom relay.
-                    It is intentionally a live-room system, not a persistent
-                    inbox or message history platform.
+                    private live chat rooms on the managed EncryptRoom relay. It
+                    is intentionally a live-room system, not a persistent inbox
+                    or message history platform.
                 </p>
 
                 <h2>Core Behavior</h2>
                 <ul className="about-list">
                     <li>Clients encrypt message payloads before sending.</li>
-                    <li>Relay forwards ciphertext frames between room members.</li>
+                    <li>
+                        Relay forwards ciphertext frames between room members.
+                    </li>
                     <li>No chat history is stored for later retrieval.</li>
-                    <li>Clients connect to relay, not directly to each other.</li>
+                    <li>
+                        Clients connect to relay, not directly to each other.
+                    </li>
                     <li>If you are offline, you miss messages by design.</li>
                 </ul>
 
@@ -42,7 +46,9 @@ export default function AboutPage() {
                 <ol className="about-steps">
                     <li>Create a room bundle from the main page.</li>
                     <li>Share the correct client binary with trusted users.</li>
-                    <li>User opens client, enters display name and password.</li>
+                    <li>
+                        User opens client, enters display name and password.
+                    </li>
                     <li>Client authenticates and joins the live room.</li>
                     <li>Participants exchange encrypted live messages.</li>
                 </ol>
@@ -98,6 +104,16 @@ export default function AboutPage() {
                         <strong>Software for Progress Foundation</strong>
                     </a>
                     .
+                </p>
+                <p className="relay-link-note">
+                    Want to review how the relay works?{" "}
+                    <a
+                        href="https://github.com/SoftwareforProgress/EncryptRoom"
+                        target="_blank"
+                        rel="noreferrer noopener"
+                    >
+                        View the EncryptRoom Open Source project on GitHub →
+                    </a>
                 </p>
 
                 <p className="about-actions">

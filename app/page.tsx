@@ -72,9 +72,22 @@ export default function Home() {
                                 target="_blank"
                                 rel="noreferrer noopener"
                             >
-                                <strong>Software for Progress Foundation</strong>
+                                <strong>
+                                    Software for Progress Foundation
+                                </strong>
                             </a>
                             .
+                        </p>
+                        <p className="relay-link-note">
+                            Want to review how the relay works?{" "}
+                            <a
+                                href="https://github.com/SoftwareforProgress/EncryptRoom"
+                                target="_blank"
+                                rel="noreferrer noopener"
+                            >
+                                View the EncryptRoom Open Source project on
+                                GitHub →
+                            </a>
                         </p>
                     </div>
 
